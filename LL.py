@@ -27,17 +27,25 @@ class LinkedList:
 
 def init_ll():
     LL = LinkedList(None)
-    LL.insert(1)
+    # LL.insert(1)
+    # LL.insert(1)
+    # LL.insert(2)
+    # LL.insert(3)
+    # LL.insert(3)
+    # LL.insert(4)
+    # LL.insert(3)
+    # LL.insert(3)
+    # LL.insert(2)
+    # LL.insert(1)
+    # LL.insert(1)
+
     LL.insert(1)
     LL.insert(2)
-    LL.insert(3)
     LL.insert(3)
     LL.insert(4)
-    LL.insert(3)
-    LL.insert(3)
-    LL.insert(2)
-    LL.insert(1)
-    LL.insert(1)
+    LL.insert(5)
+    LL.insert(6)
+    LL.insert(7)
 
     LL.print_ll()
 
