@@ -2,6 +2,16 @@
 from LL import init_char_ll, Node, LinkedList
 
 def split_at_N(LL, n):
+    '''A function to split the linked list at given index N.
+    
+    Parameters:
+        LL (LinkedList): Linked list on which operation is to be performed.
+        n (int): Index at which the linked list is to be split.
+
+    Returns:
+        LinkedList: A reference of the node at which the linked list is split.
+    '''
+    
     if LL.head == None:
         return None
     curr = LL.head

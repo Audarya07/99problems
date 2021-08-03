@@ -2,6 +2,13 @@
 from LL import init_ll, Node, LinkedList
 
 def rotate_N_left(LL, n):
+    '''A function to rotate the linked list N places to the left.
+    
+    Parameters:
+        LL (LinkedList): Linked list on which rotation is to be performed.
+        n (int): Places by which the linked list is to be left rotated.
+    '''
+    
     if not LL.head or n == 0:
         return None
 
